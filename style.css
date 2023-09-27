@@ -1,0 +1,37 @@
+body{
+   margin: 0;
+}
+header,main{
+    margin-inline: auto;
+    width: 700px;
+}
+p.titolo{
+    
+    border-top-color: rgb(34, 29, 20); 
+    background-color: hsl(40, 86%, 86%);
+    
+}
+h1.titolo-focaccia{ 
+    text-align: center;
+    border-right-width: 0px;
+}
+#titolo-in{
+    text-align: left; 
+}
+nav{
+    text-align: center;
+}
+img#immagine-focaccia{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    box-shadow: 5px 5px 2px #ccc;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+    border-radius:25px;
+}
+p#scritta-in{
+    color: red;
+}
